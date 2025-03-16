@@ -10,6 +10,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+table, th, td {
+  border: 1px solid white;
+  padding: 10px;
+  margin-left: auto;  
+  margin-right: auto; 
+}
+
 html{
     font-size: 62.5%;
 }
@@ -20,7 +27,6 @@ body{
     overflow-x: hidden;
     background-color: black;
     color: white;
-    
 }
 
 header{
@@ -48,28 +54,6 @@ header{
 
 .logo:hover{
     transform: scale(1.1);
-}
-
-img {
-  opacity: 0.5;
-}
-
-.container {
-  position: static;
-  text-align: center; 
-  color: white;
-}
-
-.top-left {
-  position: relative;
-  top: -190px;
-  left: 0px;
-}
-
-.centered {
-  position: relative;
-  top: -185px;
-  left: 0px;
 }
 
 nav a{
@@ -190,6 +174,7 @@ span{
     background-color: #4b56b7;
     color: black;
     box-shadow: 0 0 25px #4b56b7;
+
 }
 
 @media (max-width: 900px){
